@@ -63,7 +63,7 @@ Create a **proxy.config.json** file and copy paste the snippet below:
  }
  ```
  
-*** NOTE: /api/* is a common naming convention for REST endpoints, including ng-mockapi's own endpoints. If your app's endpoints use a different naming scheme, be sure to add *new* entries rather than changing this one. Otherwise, ng-mockapi admin requests, like ngMockapi.selectScenario(), won't work.
+*** NOTE: `/api/*` is a common naming convention for REST endpoints, including ng-mockapi's own endpoints. If your app's endpoints use a different naming scheme, be sure to add *new* entries rather than changing this one. Otherwise, ng-mockapi admin requests, like `ngMockapi.selectScenario()`, won't work.
 
 ## 4. Update your npm start script
 We need to let ng-serve know that it should use the proxy config. Therefore in package.json the following line:
